@@ -1,3 +1,50 @@
-body {
-    background-color: #fff;
+/* колір основного тексту #212121 */
+/* колір вторичного текста #757575 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* додотковий колір фону #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+/* навігація сайта */
+.site-nav {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--title-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact-nav .link.current {
+  color: var(--title-text-color);
+}
+.contact-nav {
+  color: var(--title-text-color);
+}
+/* секції */
