@@ -10,6 +10,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --primary-bg-color: #f5f4fa;
+  --section-bg-color: #2f303a;
 }
 
 body {
@@ -49,7 +50,6 @@ body {
   text-decoration: underline;
 }
 
-}
 /* навігація сайта */
 
 .nav {
@@ -136,16 +136,19 @@ body {
   background: #2f303a;
 }
 
-.adress-nav .link {
-  color: var(--primary-white-color);
-
+.address-nav .link {
   font-style: normal;
 }
-.adress-nav .link:hover,
-.adress-nav .link:focus {
+.address-nav .link:hover,
+.address-nav .link:focus {
   color: var(--accent-color);
 }
-
+.address-nav-adr {
+  color: var(--primary-white-color);
+}
+.address-nav-cont {
+  color: rgba(255, 255, 255, 0.6);
+}
 /* кнoпка */
 .button {
   color: var(--title-text-color);
