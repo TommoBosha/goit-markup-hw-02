@@ -53,13 +53,17 @@ body {
 /* навігація сайта */
 
 .nav {
+  /* letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14; */
+}
+.nav-site .link {
+  color: var(--title-text-color);
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-}
-.nav-site .link {
-  color: var(--title-text-color);
 }
 
 .nav-site .link:hover,
@@ -69,6 +73,10 @@ body {
 
 .nav-contact .link {
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .nav-contact .link:hover,
