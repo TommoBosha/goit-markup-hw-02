@@ -38,13 +38,17 @@ body {
 .accent {
   color: var(--accent-color);
 }
-
+.accent-footer {
+  color: var(--primary-white-color);
+}
 .link {
   text-decoration: none;
 }
 
 .link-main {
   text-decoration: underline;
+}
+
 }
 /* навігація сайта */
 
@@ -120,9 +124,13 @@ body {
 }
 
 /* футер */
+.address {
+  background: #2f303a;
+}
+
 .adress-nav .link {
   color: var(--primary-white-color);
-  background: #2f303a;
+
   font-style: normal;
 }
 .adress-nav .link:hover,
@@ -146,7 +154,8 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
+  background: var(--accent-color);
 }
 .button.primary {
   color: var(--primary-white-color);
@@ -156,10 +165,10 @@ body {
   line-height: 1.87;
 }
 
-.button.primary:hover,
+/* .button.primary:hover,
 .button.primary:focus {
   color: var(--title-text-color);
-}
+} */
 
 .button.secondary {
   color: var(--primary-white-color);
