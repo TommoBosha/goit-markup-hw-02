@@ -43,6 +43,9 @@ body {
   text-decoration: none;
 }
 
+.link-main {
+  text-decoration: underline;
+}
 /* навігація сайта */
 
 .nav {
@@ -74,6 +77,7 @@ body {
 .hero-title {
   color: var(--primary-white-color);
   background: #2f303a;
+  text-transform: uppercase;
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
