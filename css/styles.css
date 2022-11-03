@@ -45,25 +45,21 @@ body {
 .link {
   text-decoration: none;
 }
-
-.link-main {
-  text-decoration: underline;
+.link-accent {
+  color: var(--accent-color);
 }
 
 /* навігація сайта */
 
-.nav {
-  /* letter-spacing: 0.02em;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14; */
-}
 .nav-site .link {
   color: var(--title-text-color);
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+.nav-site .link-accent {
+  color: var(--accent-color);
 }
 
 .nav-site .link:hover,
@@ -175,11 +171,6 @@ body {
   /* font-weight: 700; */
   line-height: 1.87;
 }
-
-/* .button.primary:hover,
-.button.primary:focus {
-  color: var(--title-text-color);
-} */
 
 .button.secondary {
   color: var(--primary-white-color);
